@@ -39,6 +39,7 @@ const EventRegistrationForm = () => {
     }
 
 
+    
     let handleAddMember = (event) => {
         setMembers([...members, { userId: null }]);
     };

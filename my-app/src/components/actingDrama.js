@@ -11,7 +11,8 @@ import '../css/cardAnimation.css'
 function Events() {
 
   const [modalData, setModalData] = React.useState({
-    show: false,
+    show: false,  
+    
     data: {}
   });
   
